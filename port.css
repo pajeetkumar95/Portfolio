@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#wrapper{
+    border-top: 3px solid  #000;
+    margin: 1rem 0rem;
+}
+
+.wrapperleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.headleft h1{
+    padding-left: 2rem;
+
+}
+
+.headright a{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    padding-right: 2rem;
+}
+
+.wrapperright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.centerimage{
+    padding-top: 10rem;
+    padding-left: 15rem;
+}
+
+.john{
+    padding-top: 10rem;
+    padding-right: 15rem;
+}
+
+.border{
+    border: 1px solid;
+    width: 40px;
+}
+
+.front p{
+    padding-bottom: 1rem;
+}
+
+.hyper{
+    padding: 1rem 1rem;
+    border: 1px solid;
+    position: relative;
+    overflow: hidden;
+}
+
+.hyper a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding-left: 2rem;
+    font-size: 20px;
+}
+
+.hyper a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    transition: all 1s ease;
+    z-index: -1;
+}
+
+.hyper:hover a::before{
+    left: 0;
+} 
+
+.hyper a:hover{
+    color: #fff;
+}
+
+.hyper i{
+    padding-right:0.8rem;;
+}
+
+.ibottom{
+    padding: 5rem;
+    padding-left: 38rem;
+}
+
+#service{
+    background: url(/images/bg-1.jpg) no-repeat center scroll;
+    height:900px;
+    width: 100%;
+}
+
+.servicehead{
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.serviceleft{
+    padding: 2rem 0;
+    color: #fff;
+}
+
+.border2{
+    border: 1px solid;
+    width: 40px;
+}
+
+.business{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+.business .company{
+    width: 30%;
+    /* margin: 0 auto; */
+}
+.business  .company h3, p {
+    margin: 1rem 0;
+}
+
+.company i{
+    font-size: 25px;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    border: 1px solid #fff;
+}
+.business .company::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 4.4rem;
+    width: 256px;
+    border-top: 2px solid #fff;
+}
+
+.business .company::after{
+    content: "";
+    position: absolute;
+    top: 7rem;
+    left: 17rem;
+    width: 300px;
+    border-top: 2px solid #fff;
+    transform: rotate(50deg);
+
+}
+
+.business .maintenance{
+    text-align: right;
+    width: 30%;
+}
+
+.business .maintenance h3, p, {
+    margin: rem 0;
+    line-height: 30px;
+}
+
+.maintenance i{
+    font-size: 25px;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    border: 1px solid #fff;
+}
+
+.business .maintenance::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 4.4rem;
+    width: 256px;
+    border-top: 2px solid #fff;
+}
+
+.business .maintenance::after{
+    content: "";
+    position: absolute;
+    top: 9.6rem;
+    right: 15.9rem;
+    width: 350px;
+    border-top: 2px solid #fff;
+    transform: rotate(110deg);
+}
+
+.personal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.personal .skill{
+    width: 30%;
+}
+
+.personal .skill h3, p{
+    margin: 1rem 0;
+}
+
+.skill i{
+    font-size: 25px;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    border: 1px solid #fff;
+
+}
+
+.personal .ecommerce{
+    width: 30%;
+    text-align: right;
+}
+
+.personal .ecommerce h3, p{
+    margin: 1rem 0;
+}
+
+.ecommerce i{
+    font-size: 25px;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    border: 1px solid #fff;
+}
