@@ -100,19 +100,27 @@
 
 #service{
     background: url(/images/bg-1.jpg) no-repeat center scroll;
-    height:900px;
+    height:1100px;
     width: 100%;
 }
 
 .servicehead{
     width: 90%;
-    margin: 0 auto;
+    margin:  auto;
     padding: 3rem 0;
 }
 
 .serviceleft{
     padding: 2rem 0;
     color: #fff;
+}
+
+.serviceleft p{
+    font-size: 25px;
+}
+
+.website{
+    position: relative;
 }
 
 .border2{
@@ -129,10 +137,12 @@
 }
 .business .company{
     width: 30%;
-    /* margin: 0 auto; */
 }
 .business  .company h3, p {
     margin: 1rem 0;
+    line-height: 30px;
+    line-break: 10px;
+    letter-spacing: 2px;
 }
 
 .company i{
@@ -144,8 +154,8 @@
 .business .company::before{
     content: "";
     position: absolute;
-    top: 0;
-    left: 4.4rem;
+    top: 2.7rem;
+    left: 4.7rem;
     width: 256px;
     border-top: 2px solid #fff;
 }
@@ -153,8 +163,8 @@
 .business .company::after{
     content: "";
     position: absolute;
-    top: 7rem;
-    left: 17rem;
+    top: 9.9rem;
+    left: 17.3rem;
     width: 300px;
     border-top: 2px solid #fff;
     transform: rotate(50deg);
@@ -164,10 +174,10 @@
 .business .maintenance{
     text-align: right;
     width: 30%;
+
 }
 
-.business .maintenance h3, p, {
-    margin: rem 0;
+.business .maintenance h3, p{
     line-height: 30px;
 }
 
@@ -181,7 +191,7 @@
 .business .maintenance::before{
     content: "";
     position: absolute;
-    top: 0;
+    top: 2.5rem;
     right: 4.4rem;
     width: 256px;
     border-top: 2px solid #fff;
@@ -190,11 +200,11 @@
 .business .maintenance::after{
     content: "";
     position: absolute;
-    top: 9.6rem;
-    right: 15.9rem;
-    width: 350px;
+    top: 10.6rem;
+    right: 15.7rem;
+    width: 300px;
     border-top: 2px solid #fff;
-    transform: rotate(110deg);
+    transform: rotate(120deg);
 }
 
 .personal{
@@ -202,6 +212,7 @@
     justify-content: space-between;
     align-items: center;
     color: #fff;
+    position: relative;
 }
 
 .personal .skill{
@@ -210,6 +221,9 @@
 
 .personal .skill h3, p{
     margin: 1rem 0;
+    line-height: 30px;
+    line-break: 10px;
+    letter-spacing: 2px;
 }
 
 .skill i{
@@ -218,6 +232,25 @@
     padding: 1rem 1rem;
     border: 1px solid #fff;
 
+}
+
+.personal .skill::before{
+    content: "";
+    position: absolute;
+    top: 2.5rem;
+    left: 4.7rem;
+    width: 256px;
+    border-top: 2px solid #fff;
+}
+
+.personal .skill::after{
+    content: "";
+    position: absolute;
+    bottom: 25.5rem;
+    left: 16rem;
+    width: 300px;
+    border-top: 2px solid  #fff;
+    transform: rotate(120deg);
 }
 
 .personal .ecommerce{
@@ -234,4 +267,97 @@
     margin: 1rem 1rem;
     padding: 1rem 1rem;
     border: 1px solid #fff;
+}
+
+.personal .ecommerce::before{
+    content: "";
+    position: absolute;
+    top: 5rem;
+    right: 4.8rem;
+    width: 256px;
+    border-top: 2px solid #fff;
+    
+}
+
+.personal .ecommerce::after{
+    content: "";
+    position: absolute;
+    bottom: 22.9rem;
+    right: 16.1rem;
+    width: 300px;
+    border-top: 2px solid #fff;
+    transform: rotate(60deg);   
+}
+
+.tv{
+    position: absolute;
+    top: 4rem;
+    left: 22rem;
+}
+.tv img{
+    width: 50%;
+}
+
+.fasolid{
+    text-align: center;
+}
+.fasolid a{
+    text-decoration: none;
+    width: 100px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem 0rem;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+}
+
+.fasolid a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    transition: all 1s ease;
+    z-index: -1;
+}
+
+.fasolid a:hover::before{
+    left: 0;
+}
+
+.fasolid a:hover{
+    color: #fff;
+}
+
+#howwork{
+    margin: 5rem 1rem;
+}
+
+.main{
+    position: relative;
+
+}
+
+.steps::before{
+    content: "";
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    width: 50px;
+    border-top: 2px solid #000;
+}
+
+.sport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sport a{
+    text-decoration: none;
+    color: #000;
 }
