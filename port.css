@@ -191,7 +191,7 @@
 .business .maintenance::before{
     content: "";
     position: absolute;
-    top: 2.5rem;
+    top: 4rem;
     right: 4.4rem;
     width: 256px;
     border-top: 2px solid #fff;
@@ -200,7 +200,7 @@
 .business .maintenance::after{
     content: "";
     position: absolute;
-    top: 10.6rem;
+    top: 12.1rem;
     right: 15.7rem;
     width: 300px;
     border-top: 2px solid #fff;
@@ -239,15 +239,15 @@
     position: absolute;
     top: 2.5rem;
     left: 4.7rem;
-    width: 256px;
+    width: 240px;
     border-top: 2px solid #fff;
 }
 
 .personal .skill::after{
     content: "";
     position: absolute;
-    bottom: 25.5rem;
-    left: 16rem;
+    bottom: 23.5rem;
+    left: 15rem;
     width: 300px;
     border-top: 2px solid  #fff;
     transform: rotate(120deg);
@@ -272,8 +272,8 @@
 .personal .ecommerce::before{
     content: "";
     position: absolute;
-    top: 5rem;
-    right: 4.8rem;
+    top: 4rem;
+    right: 4.9rem;
     width: 256px;
     border-top: 2px solid #fff;
     
@@ -282,7 +282,7 @@
 .personal .ecommerce::after{
     content: "";
     position: absolute;
-    bottom: 22.9rem;
+    bottom: 22rem;
     right: 16.1rem;
     width: 300px;
     border-top: 2px solid #fff;
@@ -291,8 +291,8 @@
 
 .tv{
     position: absolute;
-    top: 4rem;
-    left: 22rem;
+    top: 3.5rem;
+    left: 24rem;
 }
 .tv img{
     width: 50%;
@@ -355,9 +355,95 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10rem 0;
+    position: relative;
 }
 
 .sport a{
     text-decoration: none;
     color: #000;
+}
+
+.spoty1,.spoty2,.spoty3,.spoty4,.spoty5{
+    padding: 1.5rem;
+    margin: 0 1.5rem;
+    font-size: 30px;
+    border: 1px dashed #000;
+    border-radius: 50%;
+}
+
+.sport{
+    position: relative;
+}
+
+.sport .spoty1::before{
+    content: "";
+    position: absolute;
+    top: 2.5rem;
+    left: 27.9rem;
+    width: 2.8rem;
+    border: 2px solid #000;
+}
+
+.sport .spoty2::before{
+    content: "";
+    position: absolute;
+    top: 2.5rem;
+    left: 35.7rem;
+    width: 2.8rem;
+    border: 2px solid #000;
+}
+
+.sport .spoty3::before{
+    content: "";
+    position: absolute;
+    top: 2.5rem;
+    right: 36rem;
+    width: 2.8rem;
+    border: 2px solid #000;
+}
+
+.sport .spoty4::before{
+    content: "";
+    position: absolute;
+    top: 2.5rem;
+    right: 27.6rem;
+    width: 2.8rem;
+    border: 2px solid #000;
+}
+
+.spoty1:hover,.spoty2:hover,.spoty3:hover,.spoty4:hover,.spoty5:hover{
+   background-color: #000;
+}
+
+.spoty1 a:hover,.spoty2 a:hover,.spoty3 a:hover,.spoty4 a:hover,.spoty5 a:hover{
+    color: #fff;
+}
+
+.meeting{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.people{
+    width: 100%;
+    text-align: center;
+}
+
+.dummytext{
+    width: 100%;
+}
+
+.side{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #000;
+    padding: 1rem;
+}
+
+.side:hover{
+    background-color: #000;
+    color: #fff;
 }
